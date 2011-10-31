@@ -53,6 +53,7 @@ html, body
 .main
   background-color: $blue
   color: #fff
+  padding-bottom: 40px
 
   +background-image(radial-gradient(lighten($blue, 5%), darken($blue, 15%)))
 
@@ -61,7 +62,7 @@ html, body
   .home
     .left, .right
       width: 430px
-      padding: 20px 0
+      padding: 20px 0 0
 
     .left
       float: left
@@ -70,7 +71,7 @@ html, body
       .tagline
         display: block
         font-size: 60px
-        text-shadow: 0 -1px 1px darken($blue, 80%)
+        text-shadow: 0 -1px 1px darken($blue, 60%)
 
       .description
         display: block
@@ -162,12 +163,17 @@ html, body
 
   .services
     margin-top: 20px
-    padding-bottom: 20px
-    text-shadow: 0 -1px 1px darken($blue, 30%)
+    /*text-shadow: 0 -1px 1px darken($blue, 30%)
+
+    background-color: #efefef
+    color: #000
+
+    +single-box-shadow(rgba(#000, 0.5), 0, 2px, 5px)
 
     .service
       position: relative
-      margin: 0 56px
+      margin: 0 20px
+      /*56px
       padding: 30px 0
 
       .title
@@ -179,7 +185,7 @@ html, body
         line-height: 34px
 
       .description
-        font-size: 12px
+        font-size: 14px
         text-align: justify
 
       img
@@ -193,7 +199,7 @@ html, body
           float: right
 
         img
-          left: -66px
+          left: -86px
 
       &.right
         text-align: right
@@ -202,12 +208,12 @@ html, body
           float: left
 
         img
-          right: -66px
+          right: -86px
 
 
 .footer
   width: 100%
-  height: 80px
+  height: 30px
   padding: 10px 0
 
   +background-image(linear-gradient(#eee, #fff))
