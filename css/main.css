@@ -194,19 +194,19 @@ html, body {
         text-align: justify; }
       .main .services .service img {
         position: absolute;
-        top: 30px; }
+        top: 40px; }
       .main .services .service.left {
         text-align: left; }
         .main .services .service.left .price {
           float: right; }
         .main .services .service.left img {
-          left: -86px; }
+          left: -76px; }
       .main .services .service.right {
         text-align: right; }
         .main .services .service.right .price {
           float: left; }
         .main .services .service.right img {
-          right: -86px; }
+          right: -76px; }
 
 .footer {
   width: 100%;
